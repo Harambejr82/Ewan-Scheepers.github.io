@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #282c35;
+    color: #fff;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #1a1e27;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    padding: 40px 20px;
+}
+
+h1, h2, h3 {
+    color: #61dafb;
+}
+
+/* Project card styles */
+.project-card {
+    margin-bottom: 20px;
+    border: 1px solid #61dafb;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1a1e27;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #61dafb;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #1a1e27;
+    color: #fff;
+    border: 1px solid #61dafb;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #61dafb;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

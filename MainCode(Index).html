@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ewan Scheepers's Portfolio</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home/About Me Section -->
+    <section id="home">
+        <h1>I'm Ewan Scheepers</h1>
+        <p>Welcome to my portfolio! I am a programmer in training, in the languages Python, JavaScript and CSS.
+            I am currently honing my programming skills with a focus on Python, JavaScript, and CSS. Proficient in algorithm development and web application design, I am preparing for a future in robotics programming.
+            
+            Im interested in: 
+            My dual passion lies in cars and robotics. Beyond programming, I have a deep appreciation for automotive technology. The intersection of these interests drives my curiosity in the evolving landscape of autonomous vehicles and robotic applications in the automotive industry.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <!-- Project cards with descriptions and links -->
+        <div class="project-card">
+            <img src="project1.jpg.png" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>My very first project was a group project on designing a website. The website was suppose to be a CTU Buddy type of website for help or information about CTU. In my humble opinion the website turned out to be a fantastic looking wbesite. I would definetly work with thta group again and so another project of the like although it has it's hurdles there was lot to learn.</p>
+            <a href="https://schalkiewayne.github.io/CTU-Buddy/home.html" target="_blank">View Project</a>
+        </div>
+        <!-- Add more project cards as needed -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <!-- List of technical skills -->
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Pyhton</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <!-- Academic background details -->
+        <div class="education-entry">
+            <h3>I would like a degree in Comp Science</h3>
+            <p>Highschool graduate, Class of 2022. Graduated with a bachelors degree. Profeccient in working with others and under pressure. </p>
+            <p>Have yet to graduate university. Enrolled at CTU. Anticipated graduation: 2025</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact me via Email</p>
+        <!-- Contact form -->
+        <form action="process_form.php" method="post">
+            <!-- Form fields: Name, Email, Message -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- JavaScript for interactivity -->
+    <script src="script.js"></script>
+</body>
+</html>
+
